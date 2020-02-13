@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <script>
+      $(document).ready(function() {
+        // backbone js
+        var FirstView = Backbone.View.extend({
+          render: function() {
+            console.log("hello world");
+          }
+        });
+
+        FirstView();
+      });
+    </script>
+  </body>
+</html>
